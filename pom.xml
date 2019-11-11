@@ -80,3 +80,13 @@
     </pluginManagement>
   </build>
 </project>
+<project>
+  ...
+  <repositories>
+    <repository>
+      <id>example-repo</id>
+      <name>my-app</name>
+      <url>file://https://github.com/elesela/my-app.git</url>
+    </repository>
+  </repositories>
+</project>
