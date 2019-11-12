@@ -84,9 +84,9 @@
   ...
   <repositories>
     <repository>
-      <id>example-repo</id>
+      <id>my-app</id>
       <name>my-app</name>
-      <url>file://https://github.com/elesela/my-app.git</url>
+      <url>file://http://www.example.com</url</url>
     </repository>
   </repositories>
 </project>
