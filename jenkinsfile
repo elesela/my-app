@@ -3,6 +3,6 @@ node{
     git 'https://github.com/elesela/my-app'
       }
       stage('Compile-package'){
-        sh 'mvn package'
+        sh 'mvn install'
       }
 }
