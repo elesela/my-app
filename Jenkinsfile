@@ -6,11 +6,11 @@
      //   sh 'mvn install'
     //  }
 //}
-node{
-  stage('checkout code')
-  {
-    stage('Build'){
-      bat 'cd multibranch-pipeline-by-pknowledge & mvn clean install -U'
-    }
-  }
-}
+//node{
+ // stage('checkout code')
+ // {
+   // stage('Build'){
+   //   bat 'cd multibranch-pipeline-by-pknowledge & mvn clean install -U'
+//    }
+//  }
+//}
